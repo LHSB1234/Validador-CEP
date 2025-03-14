@@ -2,7 +2,7 @@ import pytest
 from validador_cep import ValidadorCEP
 
 # Caminho completo para o arquivo Excel
-CAMINHO_ARQUIVO = r"C:\Users\leo-l\Downloads\Faculdade\5 SM\Teste de Softwate e Automação de teste\Exercicios Aula 4\ceps.xlsx"
+CAMINHO_ARQUIVO = r"caminho do arquvio"
 
 @pytest.fixture
 def validador():
