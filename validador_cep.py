@@ -50,7 +50,7 @@ class ValidadorCEP:
 # Exemplo de uso:
 if __name__ == "__main__":
     try:
-        caminho_arquivo = r"C:\Users\leo-l\Downloads\Faculdade\5 SM\Teste de Softwate e Automação de teste\Exercicios Aula 4\ceps.xlsx"
+        caminho_arquivo = r"caminho do arquvio"
         validador = ValidadorCEP(caminho_arquivo)
         print(validador.validar_cep("18.050-100", "Sorocaba"))  # Deve retornar True
     except Exception as e:
